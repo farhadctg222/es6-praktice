@@ -109,3 +109,15 @@ this.school = school
 //     console.log(aaaa * 3)
 // })
 // console.log('hello worl')
+const  x = [11,22,33,44,55,66,77,88,99,100,200,400]
+let xy = []
+const y = x.forEach(function(number,index,arry){
+  const uu = number* 2
+  xy.push(uu)
+  
+})
+console.log(xy)
+
+
+
+
